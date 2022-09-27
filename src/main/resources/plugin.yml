@@ -1,0 +1,9 @@
+name: BedWarsPractice
+version: 1.0
+main: xyz.trixkz.bedwarspractice.Main
+
+commands:
+  arena:
+  setspawn:
+  level:
+  xp:

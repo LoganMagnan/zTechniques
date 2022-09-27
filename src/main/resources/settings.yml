@@ -1,0 +1,345 @@
+# Debug mode
+# Only set this value to "true" if Trixkz (LoganM) tells you to do it
+debug: false
+
+#-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-#
+#          MongoDB Database Connection          #
+#-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-#
+
+mongodb:
+  host: 161.97.185.152
+  port: 19132
+  database: "BedWarsPractice101"
+  auth:
+    enabled: true
+    username: "admin"
+    password: "aP@55word"
+    auth-database: "admin"
+
+# Admin permission node
+admin-permission-node: "bedwarspractice.admin"
+# No permission message
+no-permission-message: "&cNo permission"
+# Spawn point set message
+spawn-point-set-message: "&aSpawn point set"
+spawn-min: 100.5, 32.0, -99.5, 53.336212, -65.94543
+spawn-max: -99.5, 256.0, 100.5, 217.56482, 82.726555
+spawn-location: 0.5, 67.0, 0.5
+holograms-leaderboards-location: -14.5, 67.0, 11.5, 80.04367, 5.4746447
+
+blocks:
+  sandstone:
+    name: "&d&lSandstone"
+    lore:
+      - " "
+    material: SANDSTONE
+    data: 0
+    level: 0
+  cobblestone:
+    name: "&d&lCobblestone"
+    lore:
+      - " "
+    material: COBBLESTONE
+    data: 0
+    level: 2
+  dirt:
+    name: "&d&lDirt"
+    lore:
+      - " "
+    material: DIRT
+    data: 0
+    level: 4
+  wood:
+    name: "&d&lOak Wood"
+    lore:
+      - " "
+    material: WOOD
+    data: 0
+    level: 6
+  white-wool:
+    name: "&d&lWhite Wool"
+    lore:
+      - " "
+    material: WOOL
+    data: 0
+    level: 8
+  orange-wool:
+    name: "&d&lOrange Wool"
+    lore:
+      - " "
+    material: WOOL
+    data: 1
+    level: 10
+  magenta-wool:
+    name: "&d&lMagenta Wool"
+    lore:
+      - " "
+    material: WOOL
+    data: 2
+    level: 12
+  light-blue-wool:
+    name: "&d&lLight Blue Wool"
+    lore:
+      - " "
+    material: WOOL
+    data: 3
+    level: 14
+  yellow-wool:
+    name: "&d&lYellow Wool"
+    lore:
+      - " "
+    material: WOOL
+    data: 4
+    level: 16
+  LIMEWOOL:
+    name: "&d&lLime Wool"
+    lore:
+      - " "
+    material: WOOL
+    data: 5
+    level: 18
+  PINKWOOL:
+    name: "&d&lPink Wool"
+    lore:
+      - " "
+    material: WOOL
+    data: 6
+    level: 20
+  GRAYWOOL:
+    name: "&d&lGray Wool"
+    lore:
+      - " "
+    material: WOOL
+    data: 7
+    level: 22
+  LIGHTGRAYWOOL:
+    name: "&d&lLight Gray Wool"
+    lore:
+      - " "
+    material: WOOL
+    data: 8
+    level: 24
+  CYANWOOL:
+    name: "&d&lCyan Wool"
+    lore:
+      - " "
+    material: WOOL
+    data: 9
+    level: 26
+  PURPLEWOOL:
+    name: "&d&lPurple Wool"
+    lore:
+      - " "
+    material: WOOL
+    data: 10
+    level: 28
+  BLUEWOOL:
+    name: "&d&lBlue Wool"
+    lore:
+      - " "
+    material: WOOL
+    data: 11
+    level: 30
+  BROWNWOOL:
+    name: "&d&lBrown Wool"
+    lore:
+      - " "
+    material: WOOL
+    data: 12
+    level: 32
+  GREENWOOL:
+    name: "&d&lGreen Wool"
+    lore:
+      - " "
+    material: WOOL
+    data: 13
+    level: 34
+  REDWOOL:
+    name: "&d&lRed Wool"
+    lore:
+      - " "
+    material: WOOL
+    data: 14
+    level: 36
+  BLACKWOOL:
+    name: "&d&lBlack Wool"
+    lore:
+      - " "
+    material: WOOL
+    data: 15
+    level: 38
+  WHITESTAINED_CLAY:
+    name: "&d&lWhite Stained Clay"
+    lore:
+      - " "
+    material: STAINED_CLAY
+    data: 0
+    level: 40
+  ORANGESTAINED_CLAY:
+    name: "&d&lOrange Stained Clay"
+    lore:
+      - " "
+    material: STAINED_CLAY
+    data: 1
+    level: 42
+  MAGENTASTAINED_CLAY:
+    name: "&d&lMagenta Stained Clay"
+    lore:
+      - " "
+    material: STAINED_CLAY
+    data: 2
+    level: 44
+  LIGHTBLUESTAINED_CLAY:
+    name: "&d&lLight Blue Stained Clay"
+    lore:
+      - " "
+    material: STAINED_CLAY
+    data: 3
+    level: 46
+  YELLOWSTAINED_CLAY:
+    name: "&d&lYellow Stained Clay"
+    lore:
+      - " "
+    material: STAINED_CLAY
+    data: 4
+    level: 48
+  LIMESTAINED_CLAY:
+    name: "&d&lLime Stained Clay"
+    lore:
+      - " "
+    material: STAINED_CLAY
+    data: 5
+    level: 50
+  PINKSTAINED_CLAY:
+    name: "&d&lPink Stained Clay"
+    lore:
+      - " "
+    material: STAINED_CLAY
+    data: 6
+    level: 52
+  GRAYSTAINED_CLAY:
+    name: "&d&lGray Stained Clay"
+    lore:
+      - " "
+    material: STAINED_CLAY
+    data: 7
+    level: 54
+  LIGHTGRAYSTAINED_CLAY:
+    name: "&d&lLight Gray Stained Clay"
+    lore:
+      - " "
+    material: STAINED_CLAY
+    data: 8
+    level: 56
+  CYANSTAINED_CLAY:
+    name: "&d&lCyan Stained Clay"
+    lore:
+      - " "
+    material: STAINED_CLAY
+    data: 9
+    level: 58
+  PURPLESTAINED_CLAY:
+    name: "&d&lPurple Stained Clay"
+    lore:
+      - " "
+    material: STAINED_CLAY
+    data: 10
+    level: 60
+  BLUESTAINED_CLAY:
+    name: "&d&lBlue Stained Clay"
+    lore:
+      - " "
+    material: STAINED_CLAY
+    data: 11
+    level: 62
+  BROWNSTAINED_CLAY:
+    name: "&d&lBrown Stained Clay"
+    lore:
+      - " "
+    material: STAINED_CLAY
+    data: 12
+    level: 64
+  GREENSTAINED_CLAY:
+    name: "&d&lGreen Stained Clay"
+    lore:
+      - " "
+    material: STAINED_CLAY
+    data: 13
+    level: 66
+  REDSTAINED_CLAY:
+    name: "&d&lRed Stained Clay"
+    lore:
+      - " "
+    material: STAINED_CLAY
+    data: 14
+    level: 68
+  BLACKSTAINED_CLAY:
+    name: "&d&lBlack Stained Clay"
+    lore:
+      - " "
+    material: STAINED_CLAY
+    data: 15
+    level: 70
+  LAPIS:
+    name: "&d&lLapis Lazuli Block"
+    lore:
+      - " "
+    material: LAPIS_BLOCK
+    data: 0
+    level: 72
+  REDSTONE:
+    name: "&d&lRedstone Block"
+    lore:
+      - " "
+    material: REDSTONE_BLOCK
+    data: 0
+    level: 74
+  IRON:
+    name: "&d&lIron Block"
+    lore:
+      - " "
+    material: IRON_BLOCK
+    data: 0
+    level: 76
+  GOLD:
+    name: "&d&lGold Block"
+    lore:
+      - " "
+    material: GOLD_BLOCK
+    data: 0
+    level: 78
+  DIAMOND:
+    name: "&d&lDiamond Block"
+    lore:
+      - " "
+    material: DIAMOND_BLOCK
+    data: 0
+    level: 80
+  EMERALD:
+    name: "&d&lEmerald Block"
+    lore:
+      - " "
+    material: EMERALD_BLOCK
+    data: 0
+    level: 85
+  OBSIDIAN:
+    name: "&d&lObsidian"
+    lore:
+      - " "
+    material: OBSIDIAN
+    data: 0
+    level: 90
+  BEDROCK:
+    name: "&d&lBedrock"
+    lore:
+      - " "
+    material: BEDROCK
+    data: 0
+    level: 95
+  SPONGE:
+    name: "&6&lSponge"
+    lore:
+      - " "
+    material: SPONGE
+    data: 0
+    level: 100
